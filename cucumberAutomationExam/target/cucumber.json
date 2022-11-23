@@ -1,0 +1,166 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4038066800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.SetUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User should be goto techfios NSS",
+        "description": "",
+        "id": "techfios-other-login-functionality-validation;user-should-be-goto-techfios-nss",
+        "after": [
+          {
+            "result": {
+              "duration": 774906200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 864405800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Set SkyBlue Background button exists",
+            "match": {
+              "location": "LoginStepDefinition.given_skyblue_button_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1113499700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Set Skyblue Background",
+            "match": {
+              "location": "LoginStepDefinition.User_clicks_on_Set_Skyblue_Background()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 286359000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see Skyblue Background",
+            "match": {
+              "location": "LoginStepDefinition.User_should_see_Skyblue_Background()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@ScenarioSkyblueButton"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2054989200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.SetUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "User should be able to login with valid credentials(Other)",
+        "description": "",
+        "id": "techfios-other-login-functionality-validation;user-should-be-able-to-login-with-valid-credentials(other)",
+        "after": [
+          {
+            "result": {
+              "duration": 845597000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 456329300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Set SkyWhite Background button exists",
+            "match": {
+              "location": "LoginStepDefinition.given_white_button_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1106956800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on Set White Background",
+            "match": {
+              "location": "LoginStepDefinition.User_clicks_on_Set_White_Background()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 319818300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should see White Background",
+            "match": {
+              "location": "LoginStepDefinition.User_should_see_White_Background()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@ScenarioWhiteButton"
+          }
+        ]
+      }
+    ],
+    "name": "Techfios Other Login Functionality Validation",
+    "description": "",
+    "id": "techfios-other-login-functionality-validation",
+    "keyword": "Feature",
+    "uri": "TechFiosLogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@ScenarioButton"
+      }
+    ]
+  }
+]
